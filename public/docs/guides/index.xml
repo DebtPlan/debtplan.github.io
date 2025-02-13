@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on DebtPlan</title>
+    <link>http://localhost:1313/docs/guides/</link>
+    <description>Recent content in Guides on DebtPlan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Feb 2025 14:26:01 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigation</title>
+      <link>http://localhost:1313/docs/guides/navigation/</link>
+      <pubDate>Tue, 11 Feb 2025 14:23:41 -0600</pubDate>
+      <guid>http://localhost:1313/docs/guides/navigation/</guid>
+      <description>&lt;p&gt;List of pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Payment Strategies</title>
+      <link>http://localhost:1313/docs/guides/payment-strategies/</link>
+      <pubDate>Tue, 11 Feb 2025 14:16:04 -0600</pubDate>
+      <guid>http://localhost:1313/docs/guides/payment-strategies/</guid>
+      <description>&lt;p&gt;There are many ways to approach paying off your debt. The one you choose will be based on your goals and abilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;snowball&#34;&gt;Snowball &lt;a href=&#34;#snowball&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is recommended for most people.&lt;/p&gt;&#xA;&lt;h2 id=&#34;avalanche&#34;&gt;Avalanche &lt;a href=&#34;#avalanche&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If your goal is to save money then this is a good choice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calculators</title>
+      <link>http://localhost:1313/docs/guides/calculators/</link>
+      <pubDate>Tue, 11 Feb 2025 14:26:01 -0600</pubDate>
+      <guid>http://localhost:1313/docs/guides/calculators/</guid>
+      <description>&lt;p&gt;Lot of good stuff up in here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 py-5 mt-4">
+            <article>
+                <header class="mb-4">
+                    <h1 class="text-center">{{ .Title }}</h1>
+                    <div class="text-center text-muted mt-3">
+                        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                    </div>
+                </header>
+                
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </article>
+
+            <!-- Navigation between posts -->
+            <div class="d-flex justify-content-between mt-5 pt-3 border-top">
+                {{ with .PrevInSection }}
+                <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                    <i class="material-icons align-middle">arrow_back</i>
+                    Previous Post
+                </a>
+                {{ end }}
+                
+                {{ with .NextInSection }}
+                <a href="{{ .RelPermalink }}" class="text-decoration-none ms-auto">
+                    Next Post
+                    <i class="material-icons align-middle">arrow_forward</i>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

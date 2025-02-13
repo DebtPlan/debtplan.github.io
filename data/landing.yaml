@@ -1,0 +1,81 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "DebtPlan"
+  subtitle: Your **personal guide** to breaking the chains of debt by creating a clear path to **pay off your debts faster**.
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "iPhone_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  # Hero section button modification
+  ctaButton:
+    url: "#"
+    class: "store-button play-store"
+    # We'll keep btnText for template compatibility but it won't be visible
+    btnText: "Get it on Google Play"
+  cta2Button:
+    url: "#"
+    class: "store-button app-store"
+    # We'll keep btnText for template compatibility but it won't be visible
+    btnText: "Download on the App Store"
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why choose DebtPlan?
+  subtitle: DebtPlan takes the stress out of debt management by creating a personalized payoff strategy just for you. Simply enter your debts, and we'll show you the fastest way to become debt-free, tracking your progress every step of the way. No financial expertise needed - just follow our clear, simple plan.
+
+  items:
+    - title: Compare Strategies
+      icon: compare
+      description: Compare popular debt payoff methods to find which one saves you the most money and fits your style best.
+
+    - title: Payment Schedule
+      icon: calendar_month
+      description: See exactly when each debt will be paid off with a clear schedule, helping you stay motivated and plan your monthly budget effectively.
+
+    - title: Track Progress
+      icon: trending_down
+      description: Watch your debts shrink over time with easy-to-read charts and updates, celebrating every step toward becoming debt-free.
+
+    - title: Secure
+      icon: encrypted
+      description: Your financial information stays private with optional PIN protection - only you can access your sensitive debt details.
+
+    - title: Easy to Read
+      icon: translate
+      description: No matter where you live, DebtPlan works with your prefered format & currency symbol to give you familiar numbers.
+
+    - title: Financial Calculators
+      icon: calculate
+      description: Simple tools to help you understand interest costs, payment impacts, and how extra payments can speed up your debt freedom.

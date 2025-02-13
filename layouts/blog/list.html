@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 py-5 mt-4">
+            <div class="px-1">
+                <h1 class="text-center">Blog Posts</h1>
+            </div>
+            
+            <div class="content mt-4">
+                {{ range .Pages.ByDate.Reverse }}
+                <article class="mb-4">
+                    <h2 class="h3"><a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a></h2>
+                    <div class="text-muted mb-2">
+                        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                    </div>
+                    {{ with .Summary }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
