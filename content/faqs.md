@@ -41,18 +41,27 @@ A: This is currently not supported. We're working on adding these features in an
 
 ### App Features
 
-**Q: ...**
+**Q: Is the app free? Are there premium features?**
 
-A: ...
+A: Yes the app is free to download and use, helping you track your progress as you pay off debt using either the snowball or avalanche strategy. Subscribers have access to premium features including advanced payoff methods and extra calculators.
 
-### Calculations
+**Q: Can I track multiple debts simultaneously?**
 
-**Q: ...**
-
-A: ...
+A: Yes, you can track multiple debts simultaneously. You can enter all of your debt types to create a complete picture of what you owe. This makes it easier to develop a payment strategy that takes into account the total amount, interest rates, and due dates for each debt. By tracking everything in one place, you can better prioritize which debts to pay first and make sure no payments are missed.
 
 ### Technical Questions
 
-**Q: ...**
+**Q: Which devices/platforms does the app support?**
 
-A: ...
+A: This app runs on virtually all modern Android and iOS devices.
+
+- Android devices running Android 5.0 (Lollipop) or higher
+- iOS devices running iOS 12.0 or higher
+
+**Q: How much storage space does the app require?**
+
+A: The app requires very little storage space on your device. The initial download is small, and even after years of regular use, it will only take up about 50MB of space - that's roughly the same as 10 songs or a few photos. This means the app will work well even on devices that don't have much free storage space.
+
+**Q: Does the app work offline?**
+
+A: Yes, the app works offline. You can use all the essential features without an internet connection, including managing your debts, tracking payments, monitoring your progress, and calculating payment plans using either snowball or avalanche methods. Since all calculations happen directly on your device, you don't need to be connected to use any of these core functions.
