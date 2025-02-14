@@ -79,3 +79,9 @@ featureGrid:
     - title: Financial Calculators
       icon: calculate
       description: Simple tools to help you understand interest costs, payment impacts, and how extra payments can speed up your debt freedom.
+
+# Image compare
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
