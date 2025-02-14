@@ -5,6 +5,8 @@ title = 'Frequently Asked Questions'
 layout = 'single'
 +++
 
+:)
+
 ### Payment Strategies
 
 **Q: What payoff strategies does the app support?**
