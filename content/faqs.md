@@ -1,11 +1,9 @@
 +++
 date = '2025-02-11T09:44:44-06:00'
-draft = true
+draft = false
 title = 'Frequently Asked Questions'
 layout = 'single'
 +++
-
-:)
 
 ### Payment Strategies
 
